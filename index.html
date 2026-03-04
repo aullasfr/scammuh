@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Active Scammers List</title>
+<title>Active Scammers</title>
 
 <!-- Discord Embed -->
-<meta property="og:title" content="⚠️ Active Scammers List">
-<meta property="og:description" content="Click to view the full scammer list and their alt accounts. Stay safe.">
-<meta property="og:image" content="https://yourdomain.com/scammer-warning.png">
+<meta property="og:title" content="⚠ Active Scammers Database">
+<meta property="og:description" content="Known scammers and alt accounts. Stay safe.">
+<meta property="og:image" content="https://mcfr.fun/scam.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://mcfr.fun">
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -23,40 +25,33 @@ box-sizing:border-box;
 }
 
 body{
-font-family: 'Inter', sans-serif;
-background: radial-gradient(circle at top,#0d0d0d,#000000);
+font-family:'Inter',sans-serif;
+background:#070707;
 color:white;
 min-height:100vh;
 overflow-x:hidden;
 }
 
-.bg-glow{
+.glow1{
 position:fixed;
 width:600px;
 height:600px;
-background:radial-gradient(circle,#ff0033,#00000000);
+background:radial-gradient(circle,#ff0033,transparent);
 filter:blur(120px);
 top:-200px;
 left:-200px;
 z-index:-1;
-animation:float 8s infinite ease-in-out alternate;
 }
 
-.bg-glow2{
+.glow2{
 position:fixed;
 width:600px;
 height:600px;
-background:radial-gradient(circle,#6600ff,#00000000);
+background:radial-gradient(circle,#6600ff,transparent);
 filter:blur(120px);
 bottom:-200px;
 right:-200px;
 z-index:-1;
-animation:float 10s infinite ease-in-out alternate;
-}
-
-@keyframes float{
-0%{transform:translateY(0px)}
-100%{transform:translateY(60px)}
 }
 
 .container{
@@ -67,24 +62,13 @@ padding:60px 20px;
 
 h1{
 font-family:'Orbitron',sans-serif;
-text-align:center;
 font-size:50px;
+text-align:center;
 margin-bottom:50px;
-background:linear-gradient(90deg,#ff0033,#ff7b00);
+
+background:linear-gradient(90deg,#ff0033,#ff6600);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
-animation:fadeDown 1s ease;
-}
-
-@keyframes fadeDown{
-from{
-opacity:0;
-transform:translateY(-40px)
-}
-to{
-opacity:1;
-transform:translateY(0)
-}
 }
 
 .grid{
@@ -95,53 +79,27 @@ gap:25px;
 
 .card{
 background:rgba(255,255,255,0.05);
-backdrop-filter:blur(15px);
-border-radius:15px;
+backdrop-filter:blur(10px);
+border-radius:14px;
 padding:25px;
 border:1px solid rgba(255,255,255,0.1);
 transition:0.4s;
-position:relative;
-overflow:hidden;
-}
-
-.card::before{
-content:"";
-position:absolute;
-width:150%;
-height:150%;
-background:linear-gradient(120deg,transparent,rgba(255,0,60,0.4),transparent);
-top:-50%;
-left:-50%;
-transform:rotate(25deg);
-opacity:0;
-transition:0.5s;
-}
-
-.card:hover::before{
-opacity:1;
-animation:shine 1.2s;
-}
-
-@keyframes shine{
-0%{transform:translateX(-100%) rotate(25deg)}
-100%{transform:translateX(100%) rotate(25deg)}
 }
 
 .card:hover{
-transform:translateY(-10px) scale(1.02);
+transform:translateY(-8px);
 border-color:#ff0033;
-box-shadow:0 0 25px rgba(255,0,60,0.5);
+box-shadow:0 0 25px rgba(255,0,60,0.4);
 }
 
 .card h2{
-font-size:22px;
-margin-bottom:8px;
 color:#ff4d6d;
+margin-bottom:5px;
 }
 
 .id{
 font-size:13px;
-color:#888;
+color:#999;
 margin-bottom:10px;
 }
 
@@ -151,7 +109,7 @@ line-height:1.5;
 }
 
 ul{
-margin-top:10px;
+margin-top:8px;
 padding-left:18px;
 color:#aaa;
 }
@@ -159,8 +117,7 @@ color:#aaa;
 footer{
 text-align:center;
 margin-top:60px;
-color:#777;
-font-size:14px;
+color:#666;
 }
 
 </style>
@@ -168,8 +125,8 @@ font-size:14px;
 
 <body>
 
-<div class="bg-glow"></div>
-<div class="bg-glow2"></div>
+<div class="glow1"></div>
+<div class="glow2"></div>
 
 <div class="container">
 
@@ -179,7 +136,7 @@ font-size:14px;
 
 <div class="card">
 <h2>legendgotfame0</h2>
-<div class="id">ID: 920606727882276874</div>
+<div class="id">920606727882276874</div>
 <p class="note">Scammed many people and faked ~50 prompt vouches.</p>
 
 <ul>
@@ -191,27 +148,27 @@ font-size:14px;
 
 <div class="card">
 <h2>lester.pro.</h2>
-<div class="id">ID: 1471443849069985843</div>
+<div class="id">1471443849069985843</div>
 <p class="note">
-Scammed many people using large numbers of vouches to gain trust and avoid reports.
+Scammed many people using large numbers of vouches to gain trust.
 </p>
 </div>
 
 <div class="card">
 <h2>khushiii.00</h2>
-<div class="id">ID: 1474828307924254850</div>
+<div class="id">1474828307924254850</div>
 <p class="note">
-Scammed someone for $3.5 and claimed refund without valid proof.
+Scammed someone for $3.5 and claims refund without proof.
 </p>
 </div>
 
 </div>
 
 <footer>
-DM me if you want the full proofs.
+Proofs available via DM
 </footer>
 
 </div>
 
 </body>
-  </html>
+</html>
